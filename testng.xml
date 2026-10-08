@@ -1,0 +1,17 @@
+
+
+<suite name="Suite" parallel="tests" thread-count="2">
+
+    <test name="LoginTest">
+        <classes>
+            <class name="tests.Logintest"/>
+        </classes>
+    </test>
+
+    <test name="LoginTest2">
+        <classes>
+            <class name="tests.Logintest2"/>
+        </classes>
+    </test>
+
+</suite>
